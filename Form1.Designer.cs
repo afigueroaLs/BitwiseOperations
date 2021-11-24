@@ -49,6 +49,7 @@
             this.btnAnd.TabIndex = 0;
             this.btnAnd.Text = "AND";
             this.btnAnd.UseVisualStyleBackColor = true;
+            this.btnAnd.Click += new System.EventHandler(this.btnAnd_Click);
             // 
             // btnOR
             // 
@@ -59,6 +60,7 @@
             this.btnOR.TabIndex = 1;
             this.btnOR.Text = "OR";
             this.btnOR.UseVisualStyleBackColor = true;
+            this.btnOR.Click += new System.EventHandler(this.btnOR_Click);
             // 
             // btnXOR
             // 
@@ -69,6 +71,7 @@
             this.btnXOR.TabIndex = 2;
             this.btnXOR.Text = "XOR";
             this.btnXOR.UseVisualStyleBackColor = true;
+            this.btnXOR.Click += new System.EventHandler(this.btnXOR_Click);
             // 
             // btnNOT
             // 
@@ -79,6 +82,7 @@
             this.btnNOT.TabIndex = 3;
             this.btnNOT.Text = "NOT";
             this.btnNOT.UseVisualStyleBackColor = true;
+            this.btnNOT.Click += new System.EventHandler(this.btnNOT_Click);
             // 
             // btnRShift
             // 
@@ -89,6 +93,7 @@
             this.btnRShift.TabIndex = 4;
             this.btnRShift.Text = "Right Shift";
             this.btnRShift.UseVisualStyleBackColor = true;
+            this.btnRShift.Click += new System.EventHandler(this.btnRShift_Click);
             // 
             // btnLShift
             // 
@@ -99,6 +104,7 @@
             this.btnLShift.TabIndex = 5;
             this.btnLShift.Text = "Left Shift";
             this.btnLShift.UseVisualStyleBackColor = true;
+            this.btnLShift.Click += new System.EventHandler(this.btnLShift_Click);
             // 
             // btnClear
             // 
@@ -109,6 +115,7 @@
             this.btnClear.TabIndex = 6;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txbInput1
             // 
