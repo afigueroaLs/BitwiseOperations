@@ -42,8 +42,11 @@
             // 
             // btnAnd
             // 
+            this.btnAnd.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAnd.FlatAppearance.BorderSize = 3;
             this.btnAnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnd.Location = new System.Drawing.Point(412, 85);
+            this.btnAnd.ForeColor = System.Drawing.Color.Black;
+            this.btnAnd.Location = new System.Drawing.Point(29, 166);
             this.btnAnd.Name = "btnAnd";
             this.btnAnd.Size = new System.Drawing.Size(143, 52);
             this.btnAnd.TabIndex = 0;
@@ -53,8 +56,11 @@
             // 
             // btnOR
             // 
+            this.btnOR.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnOR.FlatAppearance.BorderSize = 3;
             this.btnOR.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOR.Location = new System.Drawing.Point(602, 85);
+            this.btnOR.ForeColor = System.Drawing.Color.Black;
+            this.btnOR.Location = new System.Drawing.Point(187, 166);
             this.btnOR.Name = "btnOR";
             this.btnOR.Size = new System.Drawing.Size(143, 52);
             this.btnOR.TabIndex = 1;
@@ -64,8 +70,11 @@
             // 
             // btnXOR
             // 
+            this.btnXOR.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnXOR.FlatAppearance.BorderSize = 3;
             this.btnXOR.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXOR.Location = new System.Drawing.Point(412, 154);
+            this.btnXOR.ForeColor = System.Drawing.Color.Black;
+            this.btnXOR.Location = new System.Drawing.Point(356, 166);
             this.btnXOR.Name = "btnXOR";
             this.btnXOR.Size = new System.Drawing.Size(143, 52);
             this.btnXOR.TabIndex = 2;
@@ -75,8 +84,11 @@
             // 
             // btnNOT
             // 
+            this.btnNOT.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnNOT.FlatAppearance.BorderSize = 3;
             this.btnNOT.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNOT.Location = new System.Drawing.Point(602, 154);
+            this.btnNOT.ForeColor = System.Drawing.Color.Black;
+            this.btnNOT.Location = new System.Drawing.Point(535, 166);
             this.btnNOT.Name = "btnNOT";
             this.btnNOT.Size = new System.Drawing.Size(143, 52);
             this.btnNOT.TabIndex = 3;
@@ -86,8 +98,11 @@
             // 
             // btnRShift
             // 
+            this.btnRShift.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnRShift.FlatAppearance.BorderSize = 3;
             this.btnRShift.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRShift.Location = new System.Drawing.Point(412, 223);
+            this.btnRShift.ForeColor = System.Drawing.Color.Black;
+            this.btnRShift.Location = new System.Drawing.Point(704, 166);
             this.btnRShift.Name = "btnRShift";
             this.btnRShift.Size = new System.Drawing.Size(143, 52);
             this.btnRShift.TabIndex = 4;
@@ -97,8 +112,11 @@
             // 
             // btnLShift
             // 
+            this.btnLShift.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnLShift.FlatAppearance.BorderSize = 3;
             this.btnLShift.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLShift.Location = new System.Drawing.Point(602, 223);
+            this.btnLShift.ForeColor = System.Drawing.Color.Black;
+            this.btnLShift.Location = new System.Drawing.Point(863, 166);
             this.btnLShift.Name = "btnLShift";
             this.btnLShift.Size = new System.Drawing.Size(143, 52);
             this.btnLShift.TabIndex = 5;
@@ -108,10 +126,13 @@
             // 
             // btnClear
             // 
+            this.btnClear.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnClear.FlatAppearance.BorderSize = 3;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(503, 298);
+            this.btnClear.ForeColor = System.Drawing.Color.Black;
+            this.btnClear.Location = new System.Drawing.Point(444, 256);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(143, 52);
+            this.btnClear.Size = new System.Drawing.Size(198, 52);
             this.btnClear.TabIndex = 6;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -120,7 +141,8 @@
             // txbInput1
             // 
             this.txbInput1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbInput1.Location = new System.Drawing.Point(88, 96);
+            this.txbInput1.ForeColor = System.Drawing.Color.Black;
+            this.txbInput1.Location = new System.Drawing.Point(185, 71);
             this.txbInput1.Name = "txbInput1";
             this.txbInput1.Size = new System.Drawing.Size(198, 35);
             this.txbInput1.TabIndex = 7;
@@ -128,7 +150,8 @@
             // txbInput2
             // 
             this.txbInput2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbInput2.Location = new System.Drawing.Point(88, 165);
+            this.txbInput2.ForeColor = System.Drawing.Color.Black;
+            this.txbInput2.Location = new System.Drawing.Point(444, 71);
             this.txbInput2.Name = "txbInput2";
             this.txbInput2.Size = new System.Drawing.Size(198, 35);
             this.txbInput2.TabIndex = 8;
@@ -136,12 +159,12 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.BackColor = System.Drawing.Color.White;
-            this.lblResultado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(114, 223);
+            this.lblResultado.ForeColor = System.Drawing.Color.Black;
+            this.lblResultado.Location = new System.Drawing.Point(701, 70);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(148, 35);
+            this.lblResultado.Size = new System.Drawing.Size(146, 33);
             this.lblResultado.TabIndex = 9;
             this.lblResultado.Text = "Resultado";
             // 
@@ -149,7 +172,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(228)))), ((int)(((byte)(242)))));
+            this.ClientSize = new System.Drawing.Size(1033, 349);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txbInput2);
             this.Controls.Add(this.txbInput1);
@@ -161,7 +185,8 @@
             this.Controls.Add(this.btnOR);
             this.Controls.Add(this.btnAnd);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Bitwise Operations";
             this.ResumeLayout(false);
             this.PerformLayout();
 
