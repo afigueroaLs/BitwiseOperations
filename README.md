@@ -1,5 +1,5 @@
 # BitwiseOperations
-In this project we gonna se the bitwise operations in a C# program user interface Desktop. 
+In this project we gonna make a calculator to see the bitwise operations in a C# program user interface Desktop. 
 
 BitwiseOperations:
 - AND
