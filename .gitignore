@@ -97,7 +97,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-*BitwiseOperations.sln
+*.BitwiseOperations.sln
 
 # Chutzpah Test files
 _Chutzpah*
